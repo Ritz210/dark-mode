@@ -1,0 +1,145 @@
+/*********************
+* Calendar module style
+**********************/
+.mod_events_monthyear
+{
+    border-style:solid;
+    border-color:#ffffff;
+    border-width:1px 1px 0px 1px;
+    height:21px ! important;
+    line-height:21px;
+    color:#ffffff;
+   	background-color:#000000;
+    font-weight:bold;
+    text-align:center !important;
+    width:220px!important;
+    cursor:pointer;
+}
+.mod_events_monthyear td
+{
+	text-align:center!important;
+}
+.mod_events_monthyear a.mod_events_link {
+	color:rgb(233, 245, 245);
+	text-decoration:none;
+    font-weight:bold!important;
+}
+
+.mod_events_table
+{
+    border-style:solid;
+    border-color:#ffffff;
+    border-width:1px 1px 1px 1px;
+    width:220px!important;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	text-decoration: none;
+	margin-bottom: 0.25em;
+}
+.mod_events_td_dayname
+{
+    border-bottom: 1px solid #ffffff;
+    height:15px ! important;
+    line-height:15px;
+    color:rgb(252, 249, 249);
+   	background-color:rgb(130,130,130);
+    font-weight:bold;
+    text-align:center !important;
+}
+.mod_events_td_dayname .sunday
+{
+	color:#3b4163;
+}
+.mod_events_td_dayname .saturday
+{
+}
+a.mod_events_daylink:link
+{
+	color: rgb(252, 250, 250);
+	text-decoration: none;
+}
+a.mod_events_daylink:visited
+{
+	color: rgb(252, 250, 250);
+	text-decoration: none;
+}
+a.mod_events_daylink:hover
+{
+	color: rgb(197, 118, 162);
+	text-decoration: none;
+}
+
+.mod_events_td_dayoutofmonth
+{
+	color: rgb(12, 12, 12);
+  	background-color:#d1bbbb;
+    padding:1px !important;
+  	width:18px!important;
+}
+
+.mod_events_td_daywithevents
+{
+    background-color: #000000;
+    padding:2px !important;
+  	width:18px!important;
+   border: 1px solid #888888;
+}
+.mod_events_td_daynoevents
+{
+    padding:1px !important;
+  	width:18px!important;
+}
+
+.mod_events_td_todaynoevents
+{
+    padding:0px !important;
+    border:solid 1px rgb(77, 74, 74);
+  	width:18px!important;
+}
+
+.mod_events_td_todaywithevents
+{
+    padding:0px !important;
+  /*  border:solid 1px red;*/
+  background-color:#3f3d3d;
+  	width:18px!important;
+}
+
+a.mod_events_link
+{
+    font-weight:normal;
+    text-align:center !important;
+	text-decoration: none;
+}
+a.mod_events_link:link
+{
+    color:white;
+}
+a.mod_events_link:hover
+{
+	color:yellow;
+}
+
+
+td.mod_events_latest_first, td.mod_events_latest 
+{
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:0px;
+	border-bottom:1px solid #cccccc;
+	padding:5px 5px 10px 10px;
+	line-height:18px;
+	font-weight:bold;
+	
+}
+td.mod_events_latest_first, td.mod_events_latest a:link {
+color:#124F73;
+} 
+td.mod_events_latest_first, td.mod_events_latest a:visited {
+color:#124F73;
+} 
+td.mod_events_latest_first, td.mod_events_latest a:hover {
+color:#700E16;
+} 

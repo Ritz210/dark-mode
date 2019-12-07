@@ -1,0 +1,69 @@
+a{
+	outline:0;
+}
+.tab_bg{ 
+	/*background: url(../images/latest-tasks-caption.png) repeat-x;*/
+	background:#285690;
+}
+.tabStrip ul { 
+	margin: 0; padding: 0; list-style-type: none;
+	background-image:none;
+}
+.tabStrip ul li { 
+	margin: 0 2px 0 0; list-style-type: none; float: left; 
+	background-image:none;
+	padding:0px;
+}
+.tabLink {
+	display: block;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 5px 5px;
+	color: #fff;
+	font-size:12px;
+	height:18px;
+	width: auto;
+	font-weight:bold;
+	text-align:center;
+	width:100px;
+}
+.tabLinkActive {
+	display: block;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 5px 10px;
+	height:18px;
+	width: auto;
+	/*background: url("../images/.jpg") no-repeat scroll center bottom transparent;*/
+	background:#fff;
+	border-bottom:#0153A5 0px solid;
+	BORDER-LEFT: #333333 0px solid;
+	color: #333;
+	font-size: 12px;
+	text-align:center;
+	font-weight:bold;
+	width:102px;
+	/*background-color:#898989;*/
+}
+.tabContent { 
+	display: none;
+	height:115px;
+
+}
+.tabContentActive { 
+	display: block; 
+	clear: both;
+	padding:5px 5px;  
+	font-size:12px;
+	height:145px;
+	white-space:normal;
+	border-top:0px solid #898989;
+}
+
+.tabContentActive h3{
+	color:#465d74;
+	padding:0px;
+	margin:0px;
+	font-weight: bold;
+	font-size:12px;
+}

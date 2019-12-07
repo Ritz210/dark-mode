@@ -1,0 +1,1846 @@
+/*------------------------------------------------------------------------
+# JA Edenite for joomla 1.5 - Version 1.4 - Licence Owner JA130162
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+
+*{margin:0px;
+padding:0px;
+}
+
+html {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#514f4f;
+padding:0px;
+line-height:18px;
+margin:0px;
+}
+.asd {
+        color: #F00;
+        text-decoration: none;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+}
+
+.asd:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+img {
+border:0;
+outline:none;
+}
+
+a{
+font-family:Arial, Helvetica, sans-serif;
+color:#f4f9fa;
+text-decoration:none;
+outline:none;
+}
+
+
+a:hover{
+font-family:Arial, Helvetica, sans-serif;
+color:rgb(170, 80, 88);
+text-decoration:none;
+outline:none;
+}
+
+#top{
+width:1000px;
+margin:0 auto;
+/*height:131px;
+background-image:url(../images/menu_bg.jpg);*/
+background-position:bottom; 
+background-repeat:repeat-x;
+background-color:#000000;
+}
+
+#main{
+	width:100%;
+	background: #141010;
+	/* background:#FFFFFF url(https://www.iitp.ac.in/templates/iitp/images/body_bg.gif) left top repeat-x; */
+	color:#565656;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+
+#header{
+margin:0 auto; 
+width:1000px;
+height:105px;
+padding:0px 0px 0px 0px;
+clear:both;
+background: #000000;;
+
+}
+
+#logo{
+margin:10px 0px 0px 25px;
+width:600px;
+height:95px;
+float:left;
+background-image: url(https://www.iitp.ac.in/templates/iitp/images/logo.jpg);
+}
+
+
+#logo a{
+color:#2a5f7e;
+}
+#top_right{
+margin:15px 10px 0px;
+width:180px;
+float:right;
+height:75px;
+}
+
+#top{
+width:180px;
+height:35px;
+}
+.language {
+background:url(https://www.iitp.ac.in/templates/iitp/images/hindi.gif) no-repeat;
+width:173px;
+height:22px;
+padding:3px 0 0 8px;
+color:#3680aa;
+font-size:12px;
+}
+#search{
+width:180px;
+height:45px;
+margin-top:0px;
+}
+
+.communication {
+background:url(https://www.iitp.ac.in/templates/iitp/images/directory.jpg) no-repeat;
+width:173px;
+height:22px;
+padding:3px 0 0 8px;
+color:#3680aa;
+}
+
+#marq{
+/*background-image: url('../images/marq.gif');
+background-repeat: no-repeat;
+background-position: center;*/
+width:1000px;
+height:auto;
+margin:0 auto;
+float: left;
+}
+#newmarq{
+width:1000px;
+height:auto;
+margin:0 auto;
+float: left;
+}
+
+
+#newnews{
+width:180px;
+height:12px;
+margin:0 auto;
+float: right;
+}
+
+#newnewsleft{
+width:200px;
+height:12px;
+margin:0 auto;
+float: left;
+}
+
+
+#marqnewnews{
+width:1000px;
+height:auto;
+margin-right: auto;
+margin-left: auto;
+background-color: #000;
+}
+
+
+#menu{
+width:1000px;
+height:33px;
+margin:0 auto;
+background:url(https://www.iitp.ac.in/templates/iitp/images/menu_bg.gif) repeat-x left top;
+}
+
+.gallery_title{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+#menu_left{
+width:860px;
+height:33px;
+float:left;
+}
+
+#menu_right{
+width:140px;
+height:23px;
+float:right;
+padding:5px 0px;
+}
+
+.clr_div{
+font-size:0px;
+line-height:0px;
+height:0px;
+clear:both;
+}
+
+#content{
+width:990px;
+height:auto;
+margin:0 auto;
+background: #000000;
+padding:10px 5px;
+}
+
+#left{
+width:230px;
+float:left;
+line-height:normal;
+
+}
+
+.separator{
+background:url(https://www.iitp.ac.in/templates/iitp/images/spacer_bg.gif) repeat-y center top;
+width:20px;
+margin:0px 5px;
+float:left;
+height:735px;
+}
+
+div.search input {
+	width: 145px;
+	border: 1px solid #ccc;
+	margin: 15px 0 10px 0;
+}
+
+.inputbox {
+	background:url(https://www.iitp.ac.in/templates/iitp/images/bg_search.jpg) left top no-repeat;
+	height: 24px;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+	width: 145px;
+	vertical-align:top;
+	border:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:5px;
+}	
+
+.border{
+border:1px solid #ecc8c8;
+border-top:0px;
+padding:9px;
+line-height:normal;
+}
+
+.news_td{
+border:1px solid #ecc8c8;
+color: #FFFFFF;
+border-top:0px;
+padding:8px;
+line-height:normal;
+}
+
+.events_td{
+border:1px solid #ecc8c8;
+border-top:0px;
+padding:10px;
+height:245px;
+line-height:normal;
+}
+
+
+.guest_title{
+color:#b8d8eb;
+}
+
+#right{
+width:240px;
+float:right;
+}
+
+#info{
+width:460px;
+float:left;
+}
+
+.login{
+font-size:12px;
+text-transform:uppercase;
+color:#FFFFFF;
+}
+
+#banner{
+width:1000px;
+height:196px;
+margin:0 auto;
+}
+
+
+
+ul.top_link{
+padding-right:0px;
+	list-style: none;
+	background:none;
+}
+
+ul.top_link li{
+
+font-size:11px;
+color:#6e6e6e;
+text-align:center;
+	padding:0px 4px;
+	margin-left:0px;
+	border-bottom:0px solid #cccccc;
+	float:left;
+	background:none;
+}
+
+
+ul.news{
+	list-style: none;
+}
+
+ul.news li{
+	background: url(https://www.iitp.ac.in/templates/iitp/images/news_bullet.gif) no-repeat 0px 3px;
+	line-height:21px;
+	padding-left: 25px;
+	margin-left:0px;
+	padding-bottom:4px;
+}
+
+ul.notice{
+	list-style: none;
+}
+
+ul.notice li{
+	background: url(../images/news_bullet.gif) no-repeat 0px 3px;
+	line-height:18px;
+	padding-left: 25px;
+	margin-left:0px;
+	padding-bottom:4px;
+}
+
+
+ul.quicklinks{
+	list-style: none;
+}
+
+ul.quicklinks li{
+	background: url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) no-repeat 0px 11px;
+	line-height:26px;
+	padding:2px 0px 2px 15px;
+	margin-left:0px;
+	padding-bottom:5px;
+	border-bottom:1px solid #cccccc;
+}
+
+.quick_module{
+
+background:url(https://www.iitp.ac.in/templates/iitp/images/news_bg.gif) repeat-x left top;
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 0px 0px 10px;
+}
+
+.mou_module{
+
+background:url(https://www.iitp.ac.in/templates/iitp/images/news_bg.gif) repeat-x left top;
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:0px 0px 0px 10px;
+}
+
+
+
+.guest_module{
+background:url(../images/news_bg.gif) repeat-x left top;
+/*background:url(../images/guest_bg.jpg) repeat-x left top;*/
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 0px 0px 10px;
+}
+
+.notice_module{
+/*background:url(../images/notice_bg.jpg) repeat-x left top;*/
+background:url(../images/news_bg.gif) repeat-x left top;
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 0px 0px 10px;
+}
+
+.events_module{
+background:url(../images/news_bg.gif) repeat-x left top;
+/*background:url(../images/event_bg.gif) repeat-x left top;*/
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 0px 0px 10px;
+}
+
+.news_module{
+background:url(https://www.iitp.ac.in/templates/iitp/images/news_bg.gif) repeat-x left top;
+height:28px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 0px 0px 10px;
+}
+
+#footer{
+margin:0 auto;
+width:980px;
+height:33px;
+background:url(https://www.iitp.ac.in/templates/iitp/images/footer_bg.gif) repeat-x center top;
+color:#FFFFFF;
+padding:8px 10px;
+
+}
+
+#footer a{
+
+color:#FFFFFF;
+
+}
+
+.left_inner{
+padding:17px 30px 0px 10px;
+}
+
+.video_title{
+text-transform:uppercase;
+text-align:center;
+}
+
+.home_content{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:22px;
+text-align:justify;
+color:#868686;
+light;
+}
+
+.request_for_services{
+color:#FFFFFF;
+background-color:#d71920;
+text-transform:uppercase;
+}
+
+
+.request_for_services a{
+color:#FFFFFF;
+background-color:#d71920;
+text-transform:uppercase;
+}
+
+.request_for_services a:hover{
+color:#FFFFFF;
+text-transform:uppercase;
+}
+
+.footer_copy{	
+background-color:#b6b2b3;
+height:30px;
+
+}
+
+.logo{
+width:750px;
+height:84px;
+float:left;
+}
+.topright{
+width:150px;
+height:56px;
+margin-top:28px;
+float:left;
+
+}
+
+
+.footer_txt{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#6f6e6e;
+}
+
+.footer_txt a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#6f6e6e;
+}
+
+.footer_txt a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#000000;
+}
+
+
+.tab{
+background-image:url(../images/tab_bg.jpg);
+background-repeat: no-repeat;
+background-position:left top;
+}
+
+.tab_title{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#514f4f;
+}
+
+
+.menu{
+width:910px;
+height:47px;
+padding:0px 0px 0px 40px;
+float:left;
+
+
+}
+
+
+.header_bg{ background:url(../images/header_bg.jpg) repeat-x left top; height:182px;}
+
+.line_bg{ background:url(../images/line_bg.jpg) repeat-y left top; width:35px;}
+.robo_left{ background:url(../images/robo.jpg) no-repeat left top; }
+
+
+.top_links {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#FFFFFF;
+text-decoration:none;
+padding-top:10px;
+}
+
+.top_links a{
+font-family:Arial, Helvetica, sans-serif;
+color:#f0f0f0;
+text-decoration:none;
+}
+
+
+.top_links a:hover{
+font-family:Arial, Helvetica, sans-serif;
+color:#f5f5f5;
+text-decoration:none;
+}
+
+
+.bullet{ background:url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) left 4px no-repeat; width:15px; height:5px;}
+
+.news_bullet{ background:url(../images/news_bullet.jpg) left 8px no-repeat; width:15px; height:5px;}
+
+.bullet1{ background:url(../images/bullet1.jpg) left 8px no-repeat; width:15px; height:5px;}
+
+.readmore a{
+font-family:Arial, Helvetica, sans-serif;
+color:#828181;
+font-size:10px;
+text-decoration:none;
+float:right;}
+
+.readmore a:hover{
+font-family:Arial, Helvetica, sans-serif;
+color:#828181;
+font-size:10px;
+text-decoration:none;
+float:right;}
+
+
+.title{
+font-family:Arial, Helvetica, sans-serif;
+color:#e87901;
+font-size:14px;
+font-weight:bold;
+height:35px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.home_title{
+font-family:Eras Medium ITC, Arial, Helvetica, sans-serif;
+color:#78787a;
+font-size:15px;
+font-weight:bold;
+line-height:30px;
+text-decoration:none;
+}
+
+
+.footer{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#737375;
+text-decoration:none;
+background-color:#000000;
+height:16px;
+}
+
+.home_links{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#cc0000;
+}
+
+.home_links:hover{
+
+color:#000000;
+}
+
+.footer:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#737375;
+text-decoration:none;
+background-color:#000000;
+height:16px;
+
+}
+
+/*
+.footer a:hover{
+font-family:Arial, Helvetica, sans-serif;
+color:#737375;
+text-decoration: underline;
+}*/
+
+/* Title text */
+.contentheading, .componentheading, .blog_more strong, h1, h2, h3, h4 {
+}
+
+/* Small text */
+small, .small, .smalldark, .createby, .createdate, .modifydate, .img_caption,
+p.site-slogan, a.readon, #ja-pathway, #ja-headlinewrap, #ja-col1, #ja-col2, #ja-botsl, #ja-footer {
+	font-size: 92%;
+}
+
+small, .small {
+	color: #858783;
+}
+
+
+img.caption {
+	margin-top: 15px;
+}
+
+/* Heading */
+h1 {font-size: 180%;}
+h2 {font-size: 150%;}
+h3 {font-size: 125%;}
+h4 {text-transform: uppercase;}
+
+pre, blockquote, ul, ol, h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0;
+	padding: 0;
+}
+
+p {
+	margin: 7px 0 0 0;
+	padding: 0;
+}
+
+ul.notice{
+	list-style: none;
+}
+
+ul.notice li {
+	background: url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) no-repeat 0px 6px;
+	line-height:18px;
+	padding-left: 15px;
+	margin-left:0px;
+	padding-bottom:4px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	background: url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) no-repeat 0px 6px;
+	line-height:18px;
+	padding-left: 15px;
+	margin-left:0px;
+	padding-bottom:5px;
+}
+
+ol li {
+	line-height: 180%;
+	margin-left: 35px;
+}
+
+th {
+	font-weight: bold;
+	padding: 5px;
+	text-align: left;
+}
+
+fieldset {
+	border: none;
+	padding: 10px 5px;
+}
+
+fieldset a {
+	font-weight: bold;
+}
+
+fieldset.input {
+	padding: 0;
+}
+
+hr {
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px solid #cccccc;
+	height: 1px;
+}
+
+td, div {
+
+}
+
+/* FORM
+--------------------------------------------------------- */
+form {
+	margin: 0;
+	padding: 0;
+}
+
+form label {
+	cursor: pointer;
+}
+
+input, select, textarea, .inputbox {
+	font-family: Tahoma, Arial, sans-serif;
+	
+}
+
+.inputbox_search {
+	border: 1px solid #9f9f9f;
+	padding: 0px;
+	color: #515756;
+	background: #FFFFFF;
+	width:122px;
+	height:17px;
+}
+
+
+.button_search {
+	padding: 0px 0px;
+	background: url(../images/search.jpg) no-repeat left bottom;
+	color: #515756;
+	outline:none;
+	border:0px solid red;
+	margin-left:3px;
+}
+
+.search {
+	padding: 0px 0px;
+	margin:0px;
+}
+
+.languages{
+font-family:Arial, Helvetica, sans-serif;
+color:#888686;
+}
+
+.red_txt{
+font-family:Arial, Helvetica, sans-serif;
+color:#CC0000;
+}
+
+* html .button { /*IE 6*/
+	padding: 1px 5px !important;
+}
+
+*+html .button { /*IE 7*/
+	padding: 1px 5px !important;
+}
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+table.blog {
+}
+
+.article_separator {
+	clear: both;
+	height: 10px;
+	/*background: url(../images/dot.gif) repeat-x center;*/
+}
+
+.article_column {
+}
+
+.column_separator {
+	padding: 0 25px;
+}
+
+/* content tables */
+td.sectiontableheader {
+	background: url(../images/grad3.gif) repeat-x bottom #A8A8A8;
+	border: 1px solid #E7E8E6;
+	padding: 4px;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	padding: 4px;
+	background: url(../images/dot.gif) repeat-x bottom;
+}
+
+table.contentpane {
+	border: none;
+	width: 100%;
+}
+
+table.contentpaneopen {
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.contenttoc {
+	margin: 0 0 10px 10px;
+	padding: 0;
+	width: 35%;
+	font-size: 92%;
+}
+
+table.contenttoc a {
+	text-decoration: none;
+}
+
+table.contenttoc td {
+	background: url(../images/bullet.gif) no-repeat 10px 9px;
+	padding: 1px 5px 1px 20px;
+}
+
+table.contenttoc th {
+	border-bottom: 1px solid #E7E8E6;
+	padding: 0 0 3px;
+	text-indent: 5px;
+}
+
+table.poll {
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+}
+
+table.pollstableborder {
+	border: none;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+}
+
+table.pollstableborder img {
+	vertical-align: baseline;
+}
+
+table.pollstableborder td {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 4px !important;
+	background: none;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #F8F8F7;
+}
+
+table.searchintro {
+	padding: 10px 0;
+	width: 100%;
+}
+
+table.searchintro td {
+	padding: 5px!important;
+}
+
+table.adminform {
+}
+
+.adminform .inputbox {
+}
+
+.blog_more {
+}
+
+.blog_more strong {
+	display: block;
+	font-size: 125%;
+	margin: 0 0 5px;
+}
+
+.blog_more ul {
+	margin: 0;
+	padding: 0;
+}
+
+.blog_more ul li {
+	background: url(../images/bullet.gif) no-repeat 6px 10px;
+	margin: 0;
+	padding: 0 0 0 17px;
+}
+
+.category {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+h1.componentheading, .componentheading {
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+}
+
+.componentheading {
+font-family:Arial, Helvetica, sans-serif;
+color:#78787a;
+font-size:15px;
+font-weight:bold;
+height:25px;
+text-decoration:none;
+vertical-align:top;
+text-transform: uppercase;
+}
+
+.contentdescription {
+	padding-bottom: 30px;
+}
+
+h2.contentheading, .contentheading {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+.contentheading, .componentheading  {
+font-family:Arial, Helvetica, sans-serif;
+color:#e87901;
+font-size:20px;
+height:35px;
+text-decoration:none;
+vertical-align: middle;
+font-weight:bold;
+border-bottom:1px solid #8e0000;
+
+}
+
+table.blog .contentheading {
+	font-size: 150%;
+	line-height: normal;
+}
+
+a.contentpagetitle,
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus {
+}
+
+a.readon {
+	display: block;
+	float: left;
+	text-align: center;
+	clear: both;
+	padding: 0 5px;
+	background: url(../images/grad2-2.gif) repeat-x center #8BAB32;
+	color: #FFFFFF;
+	margin-top: 5px;
+	text-transform: lowercase;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	background: url(../images/grad2-1.gif) repeat-x center #2C79B3;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+table.contentpaneopen td, table.contentpane td {
+}
+
+
+table.contentpaneopen, table.contentpane, table.blog {
+	width: 100%;
+}
+
+
+ul.pagination {
+	margin: 15px auto 0;
+	padding: 0;
+}
+
+ul.pagination li {
+	background: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul.pagination li span{
+	padding: 2px 5px;
+}
+
+ul.pagination a {
+	padding: 2px 3px;
+	text-decoration: none;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+}
+
+.pagenavbar {
+	background: url(../images/icon-pages.gif) no-repeat center left;
+	font-weight: bold;
+	padding-left: 14px;
+}
+
+.pagenavcounter {
+	background: url(../images/icon-pages.gif) no-repeat 0 11px;
+	font-weight: bold;
+	padding: 8px 14px 0 14px;
+}
+
+.sectiontableheader {
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 8px 5px;
+}
+
+.sectiontableheader a {
+	color: #FFFFFF;
+}
+
+tr.sectiontableentry1 td {
+	padding: 8px 5px;
+}
+
+tr.sectiontableentry2 td {
+	padding: 8px 5px;
+}
+
+tr.sectiontableentry1:hover td,
+tr.sectiontableentry2:hover td {
+}
+
+.smalldark {
+	text-align: left;
+}
+
+div.syndicate div {
+	text-align: center;
+}
+
+.pollstableborder tr.sectiontableentry1 td,
+.pollstableborder tr.sectiontableentry2 td {
+	background: none;
+}
+
+/* META
+--------------------------------------------------------- */
+.createdate {
+	color: #858783;
+}
+
+.modifydate {
+	float: left;
+	width: 100%;
+	color: #858783;
+	margin-bottom: 10px;
+	display: block;
+}
+
+div.buttonheading {
+	float: right;
+	width: 20%;
+}
+
+.buttonheading img {
+	border: 0;
+	float: right;
+	margin: 7px 5px 0 0;
+}
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+#ja-wrapper {
+	padding: 0 0 40px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.narrow #ja-wrapper {
+	width: 750px;
+}
+
+#ja-header,
+#ja-mainnav,
+#ja-subnav,
+#ja-pathway,
+#ja-container,
+#ja-topsl,
+#ja-botsl,
+#ja-footer {
+	clear: both;
+}
+
+#ja-container {
+	border-top: 1px solid #E7E8E6;
+	border-bottom: 1px solid #E7E8E6;
+	/*background: url(../images/main-bg1.gif) repeat-y left;*/
+}
+
+.narrow #ja-container {
+	/*background: url(../images/main-bg1-n.gif) repeat-y left;*/
+}
+
+#ja-container2 {
+	border-bottom: 1px solid #E7E8E6;
+	background: url(../images/main-bg2.gif) repeat-y right;
+}
+
+.narrow #ja-container2 {
+	background: url(../images/main-bg2-n.gif) repeat-y right;
+}
+
+#ja-mainbody {
+	width: 80%;
+	float: right;
+}
+
+/* PRIMARY COLUMN
+--------------------------------------------------------- */
+#ja-content {
+	clear: both;
+	display: block;
+	float: left;
+	width: 75%;
+	
+	
+}
+
+#ja-current-content {
+	padding: 10px 15px;
+	}
+
+/* COLUMNS
+--------------------------------------------------------- */
+#ja-col1 {
+	float: left;
+	overflow: hidden;
+	width: 20%;
+	color: #626A69;
+}
+
+#ja-col2 {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+	color: #626A69;
+}
+
+/*common style for column*/
+#ja-colwrap a {
+}
+
+#ja-colwrap a:hover, #ja-colwrap a:active, #ja-colwrap a:focus {
+}
+
+#ja-colwrap table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#ja-colwrap .article_separator {
+	display: none;
+}
+
+/* COLLAPSIBLE LAYOUT
+--------------------------------------------------------- */
+#ja-containerwrap,
+#ja-containerwrap-f,
+#ja-containerwrap-fr,
+#ja-containerwrap-fl {
+	padding: 0;
+	margin: 25px 0;
+	/*background: url(../images/grad1.gif) repeat-x bottom #FFFFFF;*/
+}
+
+/*full*/
+#ja-containerwrap-f #ja-mainbody {
+	width: 100%;
+}
+
+#ja-containerwrap-f #ja-content {
+	width: 100%;
+}
+
+#ja-containerwrap-f #ja-container,
+#ja-containerwrap-f #ja-container2 {
+	background: none;
+}
+
+#ja-containerwrap-f #ja-container {
+	border: 1px solid #E7E8E6;
+}
+
+/*content + left*/
+#ja-containerwrap-fr #ja-content {
+	width: 100%;
+}
+
+#ja-containerwrap-fr #ja-container2 {
+	background: none;
+}
+
+#ja-containerwrap-fr #ja-container2 {
+	border-right: 1px solid #E7E8E6;
+}
+
+/*content + right*/
+#ja-containerwrap-fl #ja-mainbody {
+	width: 100%;
+}
+
+#ja-containerwrap-fl #ja-content {
+	width: 79.9%;
+}
+
+#ja-containerwrap-fl #ja-col2 {
+	width: 20%;
+}
+
+#ja-containerwrap-fl #ja-container {
+	background: none;
+	border-left: 1px solid #E7E8E6;
+}
+
+/* MODULE
+--------------------------------------------------------- */
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+div.moduletable_hilite h3 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+	margin: 0px 0px 0px 0px;
+	padding: 8px 10px;
+	
+	border-bottom: 0px solid #E7E8E6;
+	color: #ffffff;
+	text-transform: uppercase;
+	background:url(https://www.iitp.ac.in/templates/iitp/images/news_bg.gif) repeat-x left top;
+
+text-transform:inherit;	
+}
+
+div.moduletable,
+div.moduletable_menu,
+div.moduletable_text,
+div.moduletable_hilite {
+margin-bottom:15px;
+	padding: 0 0px 0px;
+	border:solid 0px #cccccc;
+}
+
+#ja-botsl div.moduletable,
+#ja-botsl div.moduletable_menu,
+#ja-botsl div.moduletable_text {
+	border-bottom: none;
+}
+
+/* mis */
+div.banneritem_text {
+	padding: 5px 0 !important;
+}
+
+div.advs {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+div.moduletable ul,
+div.moduletable_text ul,
+div.moduletable_menu ul,
+div.moduletable_hilte ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.moduletable li,
+div.moduletable_text li,
+div.moduletable_menu li,
+div.moduletable_hilite li {
+	/* background: url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) no-repeat 5px 8px; */
+	margin: 0;
+	padding-left: 16px;
+}
+
+/* Hilite */
+div.moduletable_hilite h3 {
+	/*background: url(../images/grad2.gif) repeat-x bottom #2C79B3;*/
+}
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header {
+	height: 80px;
+	line-height: normal;
+	position: relative;
+}
+
+#ja-header a {
+}
+
+h1.logo, h1.logo-text {
+	margin: 0;
+	padding: 0;
+	font-size: 200%;
+}
+
+h1.logo a {
+	width: 435px;
+	display: block;
+	background: url(../images/logo.gif) no-repeat;
+	position: absolute;
+	height: 42px;
+	bottom: 15px;
+	left: 0;
+}
+
+h1.logo a span {
+	position: absolute;
+	top: -1000px;
+}
+
+h1.logo-text a {
+	text-decoration: none;
+	outline: none;
+	position: absolute;
+	bottom: 35px;
+	left: 15px;
+}
+
+p.site-slogan {
+	margin: 0;
+	padding: 0;
+	color: #858783;
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
+}
+
+/* MAIN NAVIGATION
+--------------------------------------------------------- */
+#ja-mainnavwrap {
+/*	background: url(../images/shadow.gif) repeat-x bottom;*/
+/*	height: 37px;*/
+	position: relative;
+	z-index: 999;
+}
+
+#ja-mainnav {
+	/*background: url(../images/grad2.gif) repeat-x top #2C79B3;*/
+/*	height: 32px;*/
+}
+
+#ja-mainnav a, #ja-subnav a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+	outline: none;
+	color:#747474;
+}
+
+#ja-subnav {
+	display: block;
+	font-size: 92%;
+	border-bottom: 0px solid #E7E8E6;
+	color:#FF9933;
+}
+
+#ja-subnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-subnav li {
+	background: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#ja-subnav li a {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	line-height: 28px;
+	background: url(../images/vline.gif) no-repeat center left;
+}
+
+#ja-subnav li.active a,
+#ja-subnav li.active a:hover,
+#ja-subnav li.active a:active,
+#ja-subnav li.active a:focus {
+	color:#c4161a;
+}
+
+#ja-subnav li a.first-item {
+	background: none;
+}
+
+/* breadcrumbs */
+#ja-pathway {
+	border: 1px solid #E7E8E6;
+	border-bottom: none;
+	padding: 5px 15px;
+	color: #626A69;
+	font-weight: bold;
+	background: #F8F8F7;
+}
+
+#ja-pathway strong {
+	margin-right: 5px;
+}
+
+#ja-pathway a {
+	color: #626A69;
+	font-weight: normal;
+}
+
+#ja-pathway img {
+	margin: 1px 5px;
+}
+
+/* Default Joomla! Menu */
+ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li a {
+	display: block;
+	outline: none;
+	padding: 6px 4px;
+	color: #626A69;
+	border-bottom: 1px solid #E7E8E6;
+	background: url(../images/arrow.png) no-repeat 97% center;
+}
+
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	color: #2C79B3;
+	background: url(../images/arrow2.png) no-repeat 97% center;
+}
+
+ul.menu li.active a {
+	color: #2C79B3;
+	font-weight: bold;
+}
+
+ul.menu li ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li li a {
+	background: url(../images/bullet.gif) no-repeat 10px 13px !important;
+	border: none;
+	font-weight: normal !important;
+	padding-left: 20px !important;
+	width: 75%; /*need for ie6 transparent*/
+}
+
+ul.menu li li a:hover,
+ul.menu li li a:active,
+ul.menu li li a:focus {
+	background: none;
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+/* Spotlight Box Style */
+.ja-box-full, .ja-box-left, .ja-box-center, .ja-box-right {
+	float: left;
+	overflow: hidden;
+}
+
+.ja-box-left, .ja-box-center {
+	background: url(../images/vline2.gif) repeat-y top right;
+}
+
+/* Top spotlight */
+#ja-topsl {
+	height: 240px;
+	margin: 0 0 10px;
+	overflow:hidden;
+	width:98%;
+}
+
+* html #ja-topsl { /*IE 6*/
+	margin: 0 1px 10px !important;
+}
+
+*+html #ja-topsl { /*IE 6*/
+	margin: 0 1px 10px !important;
+}
+
+/* Bot spotlight */
+#ja-botsl {
+	border: 1px solid #E7E8E6;
+	/*background: url(../images/grad1.gif) repeat-x top #F8F8F7;*/
+	color: #626A69;
+	padding: 10px 0;
+}
+
+#ja-botsl h3 {
+	color: #626A69;
+	background: none;
+	border: none;
+	margin-bottom: 0;
+}
+
+#ja-botsl div.moduletable {
+	padding: 0 15px;
+}
+
+#ja-botsl ul, #ja-botsl ol {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-botsl ol li {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+#ja-botsl ul li {
+	margin: 0;
+	padding: 0 0 0 15px;
+	background: url(../images/bullet.gif) no-repeat 5px 7px;
+}
+
+#ja-botsl a {
+	color: #626A69;
+}
+
+#ja-botsl a:hover, #ja-botsl a:active, #ja-botsl a:focus {
+}
+
+/* FOOTER
+--------------------------------------------------------- */
+#ja-footer {
+	color: #626A69;
+	padding: 20px 0 0;
+	position: relative;
+	text-align: center;
+	border-top: 1px solid #E7E8E6;
+}
+
+#ja-footer small {
+	color: #858783;
+}
+
+#ja-footer ul {
+	margin: 0 0 8px;
+	padding: 0;
+	line-height: normal;
+}
+
+#ja-footer li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	background: url(../images/vline.gif) no-repeat center left;
+}
+
+#ja-footer li a {
+	display: inline;
+	line-height: normal;
+	padding: 0 15px;
+}
+
+li.ja-firstitem {
+	background: none !important;
+}
+
+.ja-footurl {
+	float: none;
+	clear: both;
+}
+
+/* MISCELLANOUS
+----------------------------------------------------------- */
+ul.accessibility {
+	position: absolute;
+	top: -100%;
+}
+
+/* Search */
+#ja-search {
+	bottom: 12px;
+	right: 10px;
+	position: absolute;
+	font-size: 11px;
+}
+
+#ja-search .inputbox {
+	padding: 2px 0 2px 22px;
+	background: url(../images/icon-search.gif) no-repeat 5px center #FFFFFF;
+	border: 1px solid #E7E8E6;
+}
+
+/* Login Form */
+#ja-login {
+	position: absolute;
+	top: 15px;
+	right: 0;
+	/*background: url(../images/grad4.gif) repeat-x bottom #F8F8F7;*/
+	padding: 4px 8px;
+	border: 1px solid #E7E8E6;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#ja-login form {
+	float: left;
+}
+
+#ja-login form label {
+	float: left;
+}
+
+label.ja-login-user span {
+	display: block;
+	float: left;
+	text-indent: -5000px;
+	background: url(../images/icon-user.gif) no-repeat center left;
+	width: 20px;
+	height: 20px;
+}
+
+label.ja-login-password span {
+	display: block;
+	float: left;
+	text-indent: -5000px;
+	background: url(../images/icon-key.gif) no-repeat center left;
+	width: 20px;
+	height: 20px;
+}
+
+#ja-login form input.button {
+	font-size: 11px !important;
+	float: left;
+}
+
+#ja-login form #mod_login_username,
+#ja-login form #mod_login_password {
+	width: 110px;
+	margin: 1px 8px 0 0;
+	font-size: 11px !important;
+	padding: 2px;
+}
+
+#ja-login form a {
+	color: #858783;
+	padding: 0 5px;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+#ja-login form a:hover,
+#ja-login form a:active,
+#ja-login form a:focus {
+	color: #858783;
+	text-decoration: underline;
+}
+
+.ja-login-links {
+	padding-top: 2px;
+	clear: both;
+}
+
+/*others*/
+.mostread, .latestnews {
+	text-decoration: none;
+}
+
+#ja-banner {
+	margin: 0 0 15px;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+}
+
+div.back_button a,
+div.back_button a:hover,
+div.back_button a:active {
+	background: none!important;
+	display: block;
+	margin: 10px 0;
+	text-decoration: none!important;
+}
+
+.clr {
+	clear: both;
+}
+
+.hasTip img {
+	border: none;
+	margin: 10px 5px 0 0;
+}
+
+div.ja-innerdiv {
+	clear: both;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E7E8E6;
+}
+
+div.ja-innerdiv img {
+	padding: 2px;
+	border: 1px solid #E7E8E6;
+	margin: 2px 8px 0 0;
+}
+
+/* Tooltips */
+.tool-tip {
+	background: #FFFFFF;
+	border: 1px solid #cccccc;
+	float: left;
+	max-width: 200px;
+	padding: 5px;
+}
+
+.tool-title {
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+	font-weight: bold;
+	margin: 0;
+	margin-top: -15px;
+	padding: 0;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+
+.tool-text {
+margin: 0;
+}
+
+#system-message dd.message ul,
+#system-message dd.error ul,
+#system-message dd.notice ul {
+	margin: 0;
+	padding: 0;
+}
+
+#system-message dd.message ul li,
+#system-message dd.error ul li,
+#system-message dd.notice ul li {
+	background: none;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 5px;
+}
+
+/* System Standard Messages */
+#system-message dd.message ul {
+	background: #626A69;
+	border: none;
+}
+
+/* System Error Messages */
+#system-message dd.error ul {
+	background: #626A69;
+	border: none;
+}
+
+/* System Notice Messages */
+#system-message dd.notice ul {
+	background: #626A69;
+	border: none;
+}
+
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+#nnn{
+width:800px;
+}
