@@ -68,8 +68,7 @@ outline:none;
 #top{
 width:1000px;
 margin:0 auto;
-/*height:131px;
-background-image:url(../images/menu_bg.jpg);*/
+
 background-position:bottom; 
 background-repeat:repeat-x;
 background-color:#000000;
@@ -78,7 +77,7 @@ background-color:#000000;
 #main{
 	width:100%;
 	background: #141010;
-	/* background:#FFFFFF url(https://www.iitp.ac.in/templates/iitp/images/body_bg.gif) left top repeat-x; */
+	
 	color:#565656;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
@@ -140,9 +139,7 @@ color:#3680aa;
 }
 
 #marq{
-/*background-image: url('../images/marq.gif');
-background-repeat: no-repeat;
-background-position: center;*/
+
 width:1000px;
 height:auto;
 margin:0 auto;
@@ -390,7 +387,6 @@ padding:0px 0px 0px 10px;
 
 .guest_module{
 background:url(../images/news_bg.gif) repeat-x left top;
-/*background:url(../images/guest_bg.jpg) repeat-x left top;*/
 height:28px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:12px;
@@ -400,7 +396,7 @@ padding:5px 0px 0px 10px;
 }
 
 .notice_module{
-/*background:url(../images/notice_bg.jpg) repeat-x left top;*/
+
 background:url(../images/news_bg.gif) repeat-x left top;
 height:28px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
@@ -412,7 +408,6 @@ padding:5px 0px 0px 10px;
 
 .events_module{
 background:url(../images/news_bg.gif) repeat-x left top;
-/*background:url(../images/event_bg.gif) repeat-x left top;*/
 height:28px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:12px;
@@ -646,12 +641,7 @@ height:16px;
 
 }
 
-/*
-.footer a:hover{
-font-family:Arial, Helvetica, sans-serif;
-color:#737375;
-text-decoration: underline;
-}*/
+
 
 /* Title text */
 .contentheading, .componentheading, .blog_more strong, h1, h2, h3, h4 {
@@ -815,7 +805,7 @@ table.blog {
 .article_separator {
 	clear: both;
 	height: 10px;
-	/*background: url(../images/dot.gif) repeat-x center;*/
+	
 }
 
 .article_column {
@@ -1141,11 +1131,10 @@ div.buttonheading {
 #ja-container {
 	border-top: 1px solid #E7E8E6;
 	border-bottom: 1px solid #E7E8E6;
-	/*background: url(../images/main-bg1.gif) repeat-y left;*/
 }
 
 .narrow #ja-container {
-	/*background: url(../images/main-bg1-n.gif) repeat-y left;*/
+	
 }
 
 #ja-container2 {
@@ -1217,7 +1206,7 @@ div.buttonheading {
 #ja-containerwrap-fl {
 	padding: 0;
 	margin: 25px 0;
-	/*background: url(../images/grad1.gif) repeat-x bottom #FFFFFF;*/
+	
 }
 
 /*full*/
@@ -1327,14 +1316,14 @@ div.moduletable li,
 div.moduletable_text li,
 div.moduletable_menu li,
 div.moduletable_hilite li {
-	/* background: url(https://www.iitp.ac.in/templates/iitp/images/bullet.gif) no-repeat 5px 8px; */
+	
 	margin: 0;
 	padding-left: 16px;
 }
 
 /* Hilite */
 div.moduletable_hilite h3 {
-	/*background: url(../images/grad2.gif) repeat-x bottom #2C79B3;*/
+	
 }
 
 /* HEADER
@@ -1389,15 +1378,13 @@ p.site-slogan {
 /* MAIN NAVIGATION
 --------------------------------------------------------- */
 #ja-mainnavwrap {
-/*	background: url(../images/shadow.gif) repeat-x bottom;*/
-/*	height: 37px;*/
+
 	position: relative;
 	z-index: 999;
 }
 
 #ja-mainnav {
-	/*background: url(../images/grad2.gif) repeat-x top #2C79B3;*/
-/*	height: 32px;*/
+	
 }
 
 #ja-mainnav a, #ja-subnav a {
@@ -1553,7 +1540,7 @@ ul.menu li li a:focus {
 /* Bot spotlight */
 #ja-botsl {
 	border: 1px solid #E7E8E6;
-	/*background: url(../images/grad1.gif) repeat-x top #F8F8F7;*/
+	
 	color: #626A69;
 	padding: 10px 0;
 }
@@ -1660,7 +1647,7 @@ ul.accessibility {
 	position: absolute;
 	top: 15px;
 	right: 0;
-	/*background: url(../images/grad4.gif) repeat-x bottom #F8F8F7;*/
+	
 	padding: 4px 8px;
 	border: 1px solid #E7E8E6;
 	border-bottom: 1px solid #CCCCCC;
@@ -1811,7 +1798,7 @@ margin: 0;
 	background: #626A69;
 	border: none;
 }
-
+s
 /* System Error Messages */
 #system-message dd.error ul {
 	background: #626A69;

@@ -33,7 +33,7 @@ ul#topnav li a {
 	padding-right:10px;
 	line-height:33px;
 	text-transform:uppercase;
-/*	border-right:solid 1px #9fbac9;*/
+
 }
 ul#topnav li.student a {
 border:none;
@@ -72,7 +72,6 @@ ul#topnav li .sub {
 	top: 33px; left: -1px;
 	z-index:10000;
 
-/*	background: #344c00 url(../images/sub_bg.png) repeat-x;*/
 	float: left;
 	/*--Bottom right rounded corner--*/
 	-moz-border-radius-bottomright: 5px;

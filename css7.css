@@ -2,7 +2,7 @@ a{
 	outline:0;
 }
 .tab_bg{ 
-	/*background: url(../images/latest-tasks-caption.png) repeat-x;*/
+	
 	background:#285690;
 }
 .tabStrip ul { 
@@ -34,7 +34,7 @@ a{
 	padding: 5px 10px;
 	height:18px;
 	width: auto;
-	/*background: url("../images/.jpg") no-repeat scroll center bottom transparent;*/
+	
 	background:#fff;
 	border-bottom:#0153A5 0px solid;
 	BORDER-LEFT: #333333 0px solid;
@@ -43,7 +43,7 @@ a{
 	text-align:center;
 	font-weight:bold;
 	width:102px;
-	/*background-color:#898989;*/
+
 }
 .tabContent { 
 	display: none;
